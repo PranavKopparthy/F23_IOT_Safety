@@ -8,7 +8,7 @@ function Home() {
         <h1>Welcome to SafeDrive!</h1>
         <p>Your Guardian on the Road</p>
         <button className='cta-button'>Get Started</button>
-      </div>
+      </div>  
     </div>
   );
 }
