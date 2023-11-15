@@ -20,11 +20,6 @@ function Navbar() {
         {/* Remove the conditional rendering based on the sidebar state */}
         <nav className='nav-menu active'>
           <ul className='nav-menu-items'>
-            <li className='navbar-toggle'>
-              <Link to='#' className='menu-bars'>
-                <AiIcons.AiOutlineClose />
-              </Link>
-            </li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
