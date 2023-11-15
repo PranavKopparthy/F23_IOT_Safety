@@ -38,12 +38,12 @@ export const SidebarData = [
     title: 'Settings',
     path: '/settings',
     icon: <FaIcons.FaEnvelopeOpenText />,
-    cName: 'nav-text'
+    cName: 'nav-text-bottom'
   },
   {
     title: 'Support',
     path: '/support',
     icon: <IoIcons.IoMdHelpCircle />,
-    cName: 'nav-text'
+    cName: 'nav-text-bottom'
   }
 ];
