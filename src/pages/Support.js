@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Support.css'; // Import the support-specific CSS
 
 function Support() {
   const [message, setMessage] = useState('');
