@@ -44,9 +44,9 @@ const chartOptions = {
 
 
 
-function Dashboard() {
-  const [data, setData] = useState(fakeData)
-  const labels = data.map(e => {
+function Dashboard(props) {
+  const nowStamp = Date.now()
+  const labels = props.bpmData && props.bpmData.map(e => {
     const dateObj = new Date(e.timestamp);
     return `${dateObj.getHours()}:${dateObj.getMinutes()}:${dateObj.getSeconds()}`
     
@@ -64,7 +64,7 @@ function Dashboard() {
           <Line options={chartOptions} data={{
             labels, 
             datasets: [{
-              data: data.map(e => [e.timestamp, e.BPM])
+              data: props.bpmData ? props.bpmData.map(e => [e.timestamp, e.BPM]) : []
             }]
           }}/>
 

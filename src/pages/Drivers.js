@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Products() {
+function Drivers() {
   return (
     <div className='products'>
       <h1 className='products-heading'>Products</h1>
@@ -14,4 +14,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Drivers;

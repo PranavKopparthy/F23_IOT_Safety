@@ -18,19 +18,19 @@ export const SidebarData = [
   // },
   {
     title: 'Drivers',
-    path: '/driers',
+    path: '/products',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
     title: 'Live Alerts',
-    path: '/live alerts',
+    path: '/reports',
     icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text'
   },
   {
     title: 'Analytics',
-    path: '/analytics',
+    path: '/',
     icon: <IoIcons.IoMdPeople />,
     cName: 'nav-text'
   },
