@@ -58,10 +58,10 @@ _Below is an example of how you can instruct your audience on installing and set
    1. Install Arduino IDE:
       Download and install the Arduino IDE from https://www.arduino.cc/en/software.
    2. Install ESP32 Board Support:
-      Open the Arduino IDE, go to "File" -> "Preferences," and add the following URL to the "Additional Boards Manager URLs" field:
+      Open the Arduino IDE, go to "File" -> "Preferences," and add the following URL to the "Additional Boards Manager URLs"       field:
       https://dl.espressif.com/dl/package_esp32_index.json
    3. Install Required Libraries:
-      Install the necessary libraries for your Arduino project. Open the Arduino IDE, go to "Sketch" -> "Include Library" -> "Manage Libraries," and install the following          libraries:
+      Install the necessary libraries for your Arduino project. Open the Arduino IDE, go to "Sketch" -> "Include Library" ->       "Manage Libraries," and install the following          libraries:
       Adafruit MPU6050
       Firebase ESP8266
    4. Upload Code to ESP32
