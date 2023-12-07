@@ -1,4 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 
 
@@ -44,7 +43,7 @@ _Below is an example of how you can instruct your audience on installing and set
    npm -g install firebase-tools
    firebase login
    firebase init
- ```
+    ```
 4. You will need to make an .env.local file inside frontend to store certain credentials for your app safely. Never push Firebase credentials to GitHub!
    ```sh
    REACT_APP_AUTH_DOMAIN=""
@@ -53,7 +52,7 @@ _Below is an example of how you can instruct your audience on installing and set
    REACT_APP_STORAGE_BUCKET=""
    REACT_APP_MESSAGING_SENDER_ID=""
    REACT_APP_ID=""
- ```
+    ```
 5. Upload Arduino.ino to esp
    ```
 
