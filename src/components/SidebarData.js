@@ -5,9 +5,14 @@ import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
   {
+    icon: <img src="LogoWakeWheel.svg" alt="Logo" />,
+    cName: 'wakewheel-logo'
+  },
+  {
     title: 'Dashboard',
     path: '/',
-    icon: <AiIcons.AiFillHome />,
+    // Replace the icon with an image reference
+    icon: <img src="dashboard.svg" alt="Dashboard" />,
     cName: 'nav-text'
   },
   // {
@@ -18,32 +23,32 @@ export const SidebarData = [
   // },
   {
     title: 'Drivers',
-    path: '/products',
-    icon: <IoIcons.IoIosPaper />,
+    path: '/',
+    icon: <img src="car.svg" alt="Drivers" />,
     cName: 'nav-text'
   },
   {
     title: 'Live Alerts',
     path: '/reports',
-    icon: <FaIcons.FaCartPlus />,
+    icon: <img src="bell.svg" alt="Live Alerts" />,
     cName: 'nav-text'
   },
   {
     title: 'Analytics',
     path: '/',
-    icon: <IoIcons.IoMdPeople />,
+    icon: <img src="line.svg" alt="Analytics" />,
     cName: 'nav-text'
   },
   {
     title: 'Settings',
     path: '/settings',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <img src="settings.svg" alt="Settings" />,
     cName: 'nav-text-bottom'
   },
   {
     title: 'Support',
     path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />,
+    icon: <img src="help.svg" alt="Support" />,
     cName: 'nav-text-bottom'
   }
 ];

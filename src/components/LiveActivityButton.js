@@ -6,7 +6,7 @@ const LiveActivityButton = () => {
   return (
     <button className='live-activity-button'>
       Live Activity
-      <img src="lilcam.png" alt="Live Activity Icon" className="view-activity-icon" />
+      <img src="lilcam.svg" alt="Live Activity Icon" className="view-activity-icon" />
 
     </button>
   );

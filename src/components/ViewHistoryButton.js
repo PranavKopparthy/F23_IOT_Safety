@@ -2,11 +2,11 @@
 
 import React from 'react';
 
-const ViewHistoryButton = () => {
+const ViewHistoryButton = (props) => {
   return (
-    <button className="view-history-button">
-      View History
-      <img src="rewindclock.png" alt="View History Icon" className="view-history-icon" />
+    <button onClick={props.onClick} className="view-history-button">
+      View {props.viewingArchive ? "Current Drive" : "History"}
+      <img src="clock.svg" alt="View History Icon" className="view-history-icon" />
     </button>
   );
 }

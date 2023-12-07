@@ -58,6 +58,8 @@
   width: 50%;
   background-color: #fff;
   border-radius: 15px;
+  overflow-y: scroll;
+  max-height: 70vh;
 }
 
 .dashboard-bottom-right {
@@ -105,17 +107,18 @@ p {
 
 
 .alerts-box {
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
     color: white;
-    background-color: transparent; /* or background-color: inherit; */
+    background-color: #FFFFFF; /* or background-color: inherit; */
     width: 100%;
-    height: 250px;
+    height: 220px;
+    border-radius: 15px;
   }
   
   .alert-text {
     text-align: left;
-    margin-left: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
   }
 
   .inner-box {
@@ -130,16 +133,19 @@ p {
     align-items: center; /* Center items vertically within each rectangle */
     padding: 10px;
     color: #000000; /* Change the text color of rectangle1 */
-    margin: 5px;
+    margin: 3px;
     border-radius: 5px;
   }
 
   .shaded {
     background-color: #ECEEF0;
+
   }
   
   .not-shaded {
     background-color: #ffffff;
+    border: 1px solid #EAECEE;
+
   }
   
   .alert-text,
@@ -152,21 +158,20 @@ p {
 
 
 .live-activity-button {
-    display: flex;
-    align-items: center;
-    background-color: #E3E9F6; /* Blue */
-    color: #000000;
-    padding: 10px 20px;
-    font-size: 24px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    width: 100%;
-    height: 120px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
-    padding-left: 60px;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  background-color: #E3E9F6; /* Blue */
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+  height: 100px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
   }
 
   .view-activity-icon {
@@ -204,6 +209,7 @@ p {
   padding: 8px 0px 8px 16px;
   list-style: none;
   height: 60px;
+  margin-top: 200;
 }
 
 .nav-text-bottom {
@@ -222,7 +228,7 @@ p {
   align-items: center;
   padding: 0 16px;
   border-radius: 4px;
-  margin-top: 80;
+  margin-top: 300px;
 }
 
 .nav-text-bottom a:hover {
@@ -287,17 +293,19 @@ span {
 }
 
 .profile-picture-text {
-  color: black;
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 5px; /* Adjust the margin as needed */
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; 
 }
 
 .profile-picture-driver-position {
   color: #6D6D6D;
   margin-top: 5px;  /* Adjust the top margin as needed */
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .profile-picture-text,
@@ -312,6 +320,7 @@ span {
 .view-history-button {
   display: flex;
   align-items: center;
+  justify-content: center; /* Center content horizontally */
   background-color: #E3E9F6; /* Blue */
   color: #000000;
   padding: 10px 20px;
@@ -320,10 +329,9 @@ span {
   border-radius: 15px;
   cursor: pointer;
   width: 100%;
-  height: 120px;
+  height: 100px;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
-  padding-left: 60px;
 }
 
 .view-history-icon {
@@ -429,4 +437,66 @@ p {
   margin-top: 20px;
 }
 
-/* Additional 'support' page-specific styles can be added here */
+.wakewheel-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px; /* Adjust padding as needed */
+}
+
+/* Assuming you have a class named .wakewheel-logo img for the logo itself */
+.wakewheel-logo img {
+  max-width: 100%; /* Make the logo responsive */
+  height: auto; /* Maintain the aspect ratio */
+  max-height: 110px; /* Adjust the maximum height as needed */
+}
+/* DriverInformation.css */
+
+.driver-card {
+  padding: 16px;
+  width: 100%;
+  height: 120px;
+  background-color: #FFFFFF; /* Blue */
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.card-header {
+  margin-top: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally within the column */
+  margin-bottom: 3px; /* Adjust the margin-bottom to decrease spacing */
+}
+
+.info-label {
+  font-weight: bold;
+  margin: 3px;
+}
+.view-med-button {
+  display: inline-flex;
+  background-color: #124BD0; /* Adjust the background color as needed */
+  color: #ffffff;
+  padding: 0; /* Set padding to 0 */
+  cursor: pointer;
+  border: 1px solid #124BD0; /* Adjust border size and color as needed */
+  border-radius: 15px;
+  width: 50px; /* Set width to fit content (the length of the word) */
+  font-size: 14px; /* Adjust font size as needed */
+  align-items: center; /* Center vertically */
+  justify-content: center;
+  margin: 8.5px 5px 8.5px 0; /* Adjust the margin-left value */
+}
