@@ -22,13 +22,7 @@ WakeWheel is an innovative solution designed to enhance driver safety and well-b
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-The hardware file is arduino.ino. Upload this to your ESP board. 
-
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
