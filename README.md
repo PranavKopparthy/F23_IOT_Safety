@@ -70,11 +70,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Important Files -->
-## Dashboard.js
-File Link: [https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/pages/Dashboard.js]
-
-## App.js
-File Link: [https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/App.js]
+## Important Files
+Dashboard.js Link: [https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/pages/Dashboard.js]
+App.js Link: [https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/App.js]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
