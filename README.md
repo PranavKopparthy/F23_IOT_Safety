@@ -72,6 +72,6 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- CONTACT -->
 ## Contact
-Project Link: https://github.com/PranavKopparthy/F23_IOT_Safety.git
+Project Link: [https://github.com/PranavKopparthy/F23_IOT_Safety.git]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
