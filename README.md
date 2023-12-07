@@ -74,8 +74,8 @@ WakeWheel is an innovative solution designed to enhance driver safety and well-b
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
-## Contact
+<!-- Repo -->
+## Repository
 Project Link: [https://github.com/PranavKopparthy/F23_IOT_Safety.git]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
