@@ -72,13 +72,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- Important Files -->
 ## Important Files
 1. Dashboard.js
-   ```sh
-   [https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/pages/Dashboard.js]
-   ```
+   - [View Dashboard.js](https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/pages/Dashboard.js)
 2. App.js
-   ```sh
-   [https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/App.js]
-   ```
+   - [View App.js](https://github.com/PranavKopparthy/F23_IOT_Safety/blob/main/src/App.js)
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
