@@ -31,16 +31,30 @@ The hardware file is arduino.ino. Upload this to your ESP board.
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/PranavKopparthy/F23_IOT_Safety.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Upload Arduino.ino to esp
+3. Install FIrebase packages
+   ```sh
+   npm -g install firebase-tools
+   firebase login
+   firebase init
+ ```
+4. You will need to make an .env.local file inside frontend to store certain credentials for your app safely. Never push Firebase credentials to GitHub!
+   ```sh
+   REACT_APP_AUTH_DOMAIN=""
+   REACT_APP_DATABASE_URL=""
+   REACT_APP_PROJECT_ID=""
+   REACT_APP_STORAGE_BUCKET=""
+   REACT_APP_MESSAGING_SENDER_ID=""
+   REACT_APP_ID=""
+ ```
+5. Upload Arduino.ino to esp
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
